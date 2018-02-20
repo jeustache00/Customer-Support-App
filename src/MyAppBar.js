@@ -4,6 +4,7 @@ import MainContent from './MainContent';
 import Popover from 'material-ui/Popover';
 import Menu from 'material-ui/Menu';
 import MenuItem from 'material-ui/MenuItem';
+import TheDialog from './TheDialog';
 
 class MyAppBar extends Component {
     state = {
@@ -40,7 +41,7 @@ render() {
                 >
                     <Menu>
                         <MenuItem primaryText="Refresh" />
-                        <MenuItem primaryText="Call Customer Support" />
+                        <TheDialog/>
                         <MenuItem primaryText="Settings" />
                         <MenuItem primaryText="Sign out" />
                     </Menu>

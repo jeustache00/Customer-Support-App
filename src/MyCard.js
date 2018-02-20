@@ -22,8 +22,8 @@ const MyCard = (props) => {
   >
     
     <CardHeader
-      title="URL Avatar"
-      subtitle="Subtitle"
+      title=""
+      subtitle=""
       avatar={(<Avatar
         color={deepOrange300}
         backgroundColor={purple500}
@@ -32,14 +32,14 @@ const MyCard = (props) => {
         {initial}
         </Avatar>)}
     />
-    <CardTitle title="Name" subtitle="Age" />
+    <CardTitle title="" subtitle="" />
     <CardText>
       {name}
-      27
+      
     </CardText>
     <CardActions>
-      <FlatButton label="Action1" />
-      <FlatButton label="Action2" />
+      {/* <FlatButton label="Action1" />
+      <FlatButton label="Action2" /> */}
     </CardActions>
   </Card>
   );
